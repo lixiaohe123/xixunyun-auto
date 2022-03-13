@@ -20,7 +20,7 @@ function sendEmail(type,msg){
     mailOptions.text = msg
     tansporter.sendMail(mailOptions,(err,data) => {
         if(err){
-            console.log("发送邮件失败");
+            console.log("发送邮件失败1");
         }else{
             console.log("发送邮件成功");
         }
